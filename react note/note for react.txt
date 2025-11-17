@@ -1,0 +1,97 @@
+===    React intro  == 
+
+React is a JavaScript library for building user interfaces.
+React is used to build single-page applications.
+React allows us to create reusable UI components.
+
+==  How it's work  == 
+
+React creates a VIRTUAL DOM in memory.
+React only changes what needs to be changed!
+
+- - - - - - - - - - - - - - 
+component:
+ 1. function
+
+			const ComponentName = () => {
+				return (
+				<div>
+					Hello React!
+				</div>
+				);
+			};
+
+			export default ComponentName;
+
+
+ 2. class component
+
+		   class Car extends React.Component {
+  				render() {
+    				return <h2>Hi, I am a Car!</h2>;
+					}
+				}	
+ 
+ ==  == Props == == 
+
+ => Props are arguments passed into React components.
+ => props stands for properties.
+
+	Syntex / Example :
+
+	function App() {
+  return (
+    <div>
+      <Greeting name="John" />
+    </div>
+  );
+}
+	-------------
+export default App;
+
+function Greet(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+
+export default Greet;
+
+
+
+
+
+
+
+
+
+
+======================
+hooks:
+	useState:  state manage krva mate
+	useReducer: Manage complex thinks/items and state
+	useEffect:  side effect handle krva mate like:(API call, dom,evevnt)
+	useRef: mutebale value ne hold krva / rerender ne trigger thata atkavu,dom Acssess krva
+	useContext: globale stte manage krva (without propes)
+	useMemo,usecallback:  perfomence optimizaton krva,unnecessary re-render ne atkava
+
+
+
+** useState  **
+
+const [state, setState] = useState(initialValue);
+
+state: The current state value.
+setState: A function used to update the state.
+initialValue: The default value of the state when the component first renders.
+
+# simple code to change the state value 10 to 20: 
+
+	const[a,setA]=useStste(10);
+	
+	fuction changea(){
+	setA(20)
+	}
+
+	<h1>vlue change {a}</h1>
+	<button onClick={changea}>click</button>
+
+
