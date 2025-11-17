@@ -91,7 +91,7 @@ initialValue: The default value of the state when the component first renders.
 	setA(20)
 	}
 
-	<h1>vlue change {a}</h1>
+	<h1>value change {a}</h1>
 	<button onClick={changea}>click</button>
 
 
