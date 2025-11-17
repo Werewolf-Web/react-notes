@@ -9,6 +9,33 @@ React allows us to create reusable UI components.
 React creates a VIRTUAL DOM in memory.
 React only changes what needs to be changed!
 
+==  Why do we install Node.js to run React?  ==
+
+✔ React depends on Node to compile JSX
+✔ React needs Node for development server
+✔ React uses NPM to install packages
+✔ Browsers cannot run JSX directly
+
+👉 We install Node because React needs it to run, compile, and manage packages.
+
+==   ✅ What is node_modules ?  ==
+
+node_modules is a folder that stores all the packages (libraries) your project needs to run.
+
+
+==  🚀 What is Vite?  ==
+
+Vite is a fast build tool and development server used to create modern web apps like React, Vue, Svelte, etc.
+
+It replaces older tools like Create React App and Webpack because it is MUCH faster.
+
+==  What is JSX?  ==
+
+JSX stands for JavaScript XML.
+JSX allows us to write HTML in React.
+
+
+
 - - - - - - - - - - - - - - 
 component:
  1. function
