@@ -7,6 +7,9 @@ JavaScript keywords are case-sensitive. (so here the apple / APPLE both are the 
 
 👉 but in that case ( The variables lastName and lastname, are different variables: )
 
+===========          =======================      ===========
+
+jo html na input box mathi input levu hoy and function ke JavaScript ma  document.getElementById(" ID NAME").value;  ni madad thi 1 veribale ma  input box ni value store krava ni
 
 
 
@@ -108,4 +111,27 @@ Operator   Description                        Comparing      Returns
 >=         greater than or equal to           x >= 8         false
 
 <=         less than or equal to              x <= 8         true
+
+
+==== Ternary==
+
+== Syntax :
+
+(condition) ? expression1 : expression2 
+
+
+===   JavaScript Switch Statement   ===
+
+
+          Syntax
+        switch(expression) {
+          case x:
+            // code block
+            break;
+          case y:
+            // code block
+            break;
+          default:
+            // code block
+        }
 
