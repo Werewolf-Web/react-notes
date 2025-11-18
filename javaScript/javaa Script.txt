@@ -29,3 +29,83 @@ global scope = acsses in anywere in code
 function scope = acsses in function
 
 block scope = where you use {..}  there you use bolck scope 
+
+✅  primitives -> primitive values are copied, not referenced.
+
+                    Primitive Data Types:
+                        string → "hello"
+                        number → 10, 3.14
+                        boolean → true, false
+                        null → intentional empty value
+                        undefined → variable declared but not assigned
+                        bigint → 123n
+                        symbol → Symbol("id")
+
+✅  reference ->  Reference types store references (addresses) to objects in memory, not the actual value.
+
+                    Reference Data Types:
+                        Object
+                        Array
+                        Function
+                        Date
+                        Set, Map, etc.
+
+=======  JavaScript Arithmetic  =====
+
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Remainder)
+++	Increment
+--	Decrement
+
+=======  JavaScrip Assignment  =====
+
+Operator   Example     Same As        Result
+------------------------------------------------
+=          x = y       x = y          x = 5
++=         x += y      x = x + y      x = 15
+-=         x -= y      x = x - y      x = 5
+*=         x *= y      x = x * y      x = 50
+**=        x **= y     x = x ** y     x = 100000
+/=         x /= y      x = x / y      x = 2
+%=         x %= y      x = x % y      x = 0
+:          x: 45       size.x = 45    x = 45
+
+--- --- --- --- --- ---- --- -- -- --- --- 
+  Logical Assignment Operators
+
+Operator   Example        Result
+-----------------------------------------
+&&=        true &&= 10    x = 10
+||=        false ||= 10   x = 10
+??=        null ??= 10    x = 10
+
+
+========  JavaScript Comparison   ===========
+
+Operator   Description                        Comparing      Returns
+------------------------------------------------------------------------
+==         equal to                           x == 8         false
+                                              x == 5         true
+                                              x == "5"       true
+
+===        equal value and equal type         x === 5        true
+                                              x === "5"      false
+
+!=         not equal                          x != 8         true
+
+!==        not equal value or type            x !== 5        false
+                                              x !== "5"      true
+                                              x !== 8        true
+
+>          greater than                       x > 8          false
+
+<          less than                          x < 8          true
+
+>=         greater than or equal to           x >= 8         false
+
+<=         less than or equal to              x <= 8         true
+
