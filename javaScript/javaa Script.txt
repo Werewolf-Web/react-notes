@@ -1,0 +1,31 @@
+==== JavaScript intro  ====   ✅   
+
+
+ ✅ JavaScript is a programming language commonly used to create interactive and dynamic behavior on websites.
+
+JavaScript keywords are case-sensitive. (so here the apple / APPLE both are the same variable count )
+
+👉 but in that case ( The variables lastName and lastname, are different variables: )
+
+
+
+
+=== JavaScript variable ===
+
+let == it was change the value when user need it (secure ) / you can declare let variableName ones time , second time you not declare let as same name / but you can change the let value
+
+const == const don't change the value (fix value)
+
+var == it was work same as let 
+
+👉 var a ; => that call a declaration of variable
+👉 var a = "hello world" => declaration / initialization  variable
+
+
+================  Scope ===========
+
+global scope = acsses in anywere in code
+
+function scope = acsses in function
+
+block scope = where you use {..}  there you use bolck scope 
