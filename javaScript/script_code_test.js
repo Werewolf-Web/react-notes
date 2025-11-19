@@ -106,3 +106,28 @@
 //         alert("Login Failed");
 //     }
 // }
+
+
+// --------------------------------------------------
+
+// const cars = []; // global array
+
+// function addcar() {
+//     let carName = document.getElementById("carInput").value;
+
+//     cars.push(carName); // array માં ઉમેરો
+//     document.getElementById("carInput").value = "";
+    
+//     let text = "";
+
+//     for (let i = 0; i < cars.length; i++) {
+//         text = text+ cars[i] + "<br>";
+//     }
+
+//     document.getElementById("carsList").innerHTML = text;
+//     console.log(cars);
+// }
+
+// // --------------------------------------------------
+
+

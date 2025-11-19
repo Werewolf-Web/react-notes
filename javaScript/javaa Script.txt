@@ -65,7 +65,7 @@ block scope = where you use {..}  there you use bolck scope
 --	Decrement
 
 =======  JavaScrip Assignment  =====
-
+x= 5, y= 10
 Operator   Example     Same As        Result
 ------------------------------------------------
 =          x = y       x = y          x = 5
@@ -113,7 +113,7 @@ Operator   Description                        Comparing      Returns
 <=         less than or equal to              x <= 8         true
 
 
-==== Ternary==
+        ==== Ternary  ==
 
 == Syntax :
 
@@ -135,3 +135,11 @@ Operator   Description                        Comparing      Returns
             // code block
         }
 
+=========== Loop  ===============
+
+For Loops can execute a block of code a number of times.
+For Loops are fundamental for tasks like performing an action multiple times
+
+    for (exp 1; exp 2; exp 3) {
+      // code block to be executed
+    }

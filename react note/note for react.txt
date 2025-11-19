@@ -2,6 +2,9 @@
 
 React is a JavaScript library for building user interfaces.
 React is used to build single-page applications.
+
+		સિંગલ-પેજ એપ્લિકેશન (SPA) એ એવી વેબ એપ્લિકેશન છે જેમાં આખી વેબસાઇટનો પેજ એક જ વાર લોડ થાય છે, અને ત્યાર બાદ જ્યારે તમે અલગ-અલગ બટન ક્લિક કરો અથવા પેજ બદલો, ત્યારે પેજ રિલોડ થયા વગર તેના ભાગો બદલી શકે છે.
+		
 React allows us to create reusable UI components.
 
 ==  How it's work  == 
